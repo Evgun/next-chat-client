@@ -1,0 +1,66 @@
+@import "~sass-rem";
+@import "variables/";
+@import "components/";
+
+html,
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h1,
+p,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.fixed-logo {
+  position: fixed;
+  left: rem(25px);
+  top: rem(25px);
+  width: 100px;
+}
+
+.sign-up-logo {
+  width: 48px;
+  height: 48px;
+  align-self: center;
+}
+
+.error {
+  color: $color-error;
+  font-weight: bold;
+  font-size: 1.5vw;
+  align-self: center;
+  margin-left: auto;
+}
+
+*::-webkit-scrollbar {
+  width: 5px; /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff7a; /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0000007a; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
+
+img {
+  object-fit: cover;
+}

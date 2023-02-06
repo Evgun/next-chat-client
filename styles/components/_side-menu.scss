@@ -1,0 +1,56 @@
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  width: 30%;
+}
+
+.side-menu__header {
+  background-color: $color-secondary;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.side-menu__image {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.side-menu__name {
+  color: white;
+  padding: 0;
+  max-width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.side-menu__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-menu__some-action {
+  flex-basis: 32px;
+  padding: 0;
+  color: white;
+  background-color: $color-primary;
+  border: 2px solid $color-light;
+  transition: 0.2s border-color, 0.2s background-color;
+
+  &:hover {
+    border-color: $color-primary;
+    background-color: $color-light;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

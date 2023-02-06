@@ -1,0 +1,43 @@
+.photo-form {
+  padding: 0px 10px 20px;
+}
+
+.photo-form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.photo-form__action-btn {
+  margin-top: 10px;
+  width: 40%;
+}
+
+.photo-form__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.photo-form__input + label {
+  font-size: 20px;
+  font-weight: 700;
+  color: $color-light;
+  display: inline-block;
+  cursor: pointer;
+  fill: $color-light;
+
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.photo-form__input:focus + label,
+.photo-form__input + label:hover {
+  color: $color-primary;
+  fill: $color-primary;
+}

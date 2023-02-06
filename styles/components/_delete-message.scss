@@ -1,0 +1,33 @@
+.delete-message {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-message__title {
+  margin: 0 35px 10px;
+  color: $color-primary;
+}
+
+.delete-message__actions {
+  width: 100%;
+  display: flex;
+}
+
+.delete-message__action {
+  flex-grow: 1;
+  flex-basis: 50%;
+  border: none;
+  background-color: $color-primary;
+  color: white;
+  height: 32px;
+  transition: 0.2s background-color;
+
+  &:hover {
+    background-color: $color-light;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

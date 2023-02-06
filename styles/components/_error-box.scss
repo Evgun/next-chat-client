@@ -1,0 +1,26 @@
+.error-box {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid $color-error;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.error-box__alert {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  fill: $color-error;
+}
+
+.error-box__text {
+  color: $color-error;
+  font-size: 18px;
+  font-weight: bold;
+}

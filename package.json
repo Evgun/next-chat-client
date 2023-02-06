@@ -1,0 +1,31 @@
+{
+  "name": "messenger",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.7",
+    "@svgr/webpack": "^5.5.0",
+    "apollo-link-http": "^1.5.17",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "debounce": "^1.2.0",
+    "formik": "^2.2.6",
+    "graphql": "^15.4.0",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "next": "10.0.5",
+    "next-apollo": "^5.0.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.58.0",
+    "sass-rem": "^2.0.1",
+    "socket.io-client": "^3.1.0",
+    "yup": "^0.32.8"
+  }
+}
